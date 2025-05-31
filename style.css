@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    color: #001f3f;
+  }
+  .section-title{
+    font-family: 'great vibes';
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  .salam{
+    font-family: 'great vibes';
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+
+
+  body {
+    background: url("The Wedding Of.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  section {
+    display: none;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    color: #001f3f;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input#slide1:checked ~ #s1,
+  input#slide2:checked ~ #s2 {
+    display: block;
+    margin-top: 2em;
+  }
+
+  .nav-buttons label {
+    background: #001f3f;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 0.5em;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  h2, h3 {
+    margin-top: 0.5em;
+    color: #001f3f;
+  }
+
+  h2.wedding-title {
+    font-family: "Lobster", cursive;
+  }
+
+  h1,h2.couple-names {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5rem;
+  }
+
+  .special-name {
+    font-family: "Great Vibes", cursive;
+    font-size: 1.4rem;
+  }
+
+  .confirmation-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1em;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1.5em 0;
+    flex-wrap: wrap;
+  }
+
+  .countdown-circle {
+    width: 50px;
+    height: 50px;
+    background: rgba(221, 231, 241, 0.8);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #001f3f;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .countdown-circle span {
+    font-size: 1.2em;
+  }
+
+  .countdown-label {
+    font-size: 0.75em;
+    font-weight: normal;
+  }
+
+  .gift-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1em;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 1em;
+  }
+
+  .gift-box h2, .gift-box h3 {
+    text-align: center;
+  }
+
+  .gift-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 1em 0;
+    word-wrap: break-word;
+    text-align: center;
+  }
+
+  .gift-entry button.no-hover {
+    background-color: #dde7f1;
+    color: #001f3f;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 90vw;
+  }
+
+  .gift-entry strong {
+    display: block;
+    width: 100%;
+  }
+
+  button {
+    padding: 0.3em 0.6em;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 5px;
+    background-color: #bacee3;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:not(.no-hover):hover {
+    background-color: #003366;
+  }
